@@ -1,0 +1,169 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+}
+
+.a{
+
+}
+
+.header{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    background: #393e46;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-contents {
+    display:flex;
+    flex-direction: row;
+    margin-right: auto;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    height: 100%;
+    width: 1420px;
+    flex: 1;
+}
+
+.col-7{
+
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.col-5{
+    display: flex;
+    flex-direction:column;
+    height: 500px;
+    width: 620px;
+}
+
+#new-course{
+    margin-left: 10px;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-collapse: collapse;
+    border-radius: 10px 10px 0 0;
+    font-size: large;
+    color: #f2f2f2;
+    margin-top: 35px;
+}
+
+thead{
+    height: 40px;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border: 1px solid #f2f2f2;
+    background-color: #5b5e62;
+}
+
+.btnDelete{
+    text-decoration: none;
+    color: #dedede;
+    border:1px solid #f93a00;
+    background-color: #f93a00;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btnDelete:hover{
+    cursor: pointer;
+    background-color: #f95a2a;
+}
+
+.course-list tr {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: max-content;
+    padding-bottom: 30px;
+}
+
+.form-control{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #dedede;
+}
+
+label{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    color: #f96d00;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.btnPrimary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #f96d00;
+    border-radius: 10px;    
+    overflow: hidden;
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}  
+
+.btnPrimary:hover {
+    cursor: pointer;
+    background-color: #fa8f3d;
+}
+
+.course-list{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+}
+
